@@ -20,6 +20,12 @@
     margin: 0 auto;
 }
 
+.nort {
+    width: 80%;
+    margin: 0px auto;
+    position: relative;
+}
+
 
 
 /* header */
@@ -92,6 +98,14 @@ header {
     height: 550px;
     margin-top: 80px;
     background-color: #b4d0e7
+}
+
+#jumbotron h1 {
+    font-size: 65px;
+    margin-top: 30px;
+    position: absolute;
+    top: 30px;
+    
 }
 
 /* jumbotron */
