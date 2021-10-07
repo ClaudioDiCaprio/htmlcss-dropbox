@@ -13,17 +13,25 @@
 .container_ {
     width: 80%;
     margin: 0 auto;
+    text-align:left;
 }
 
 .container_retro {
     width: 80%;
     margin: 0 auto;
+    
 }
 
 .nort {
     width: 80%;
     margin: 0px auto;
     position: relative;
+}
+
+.silouhette {
+    width: 80;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .clearfix::after {
@@ -157,6 +165,13 @@ header {
 
 /* main */
 
+#ur_plan {
+    margin: 200px 0  60px auto;
+    font-size: 20px;
+    
+
+    /* width: 80%; */
+}
 /* main */
 
 
@@ -201,7 +216,7 @@ footer {
 }
 
 .debug .container_ {
-    background-color: red;
+    background-color: rgb(255, 255, 255);
     height:3000px;
 }
 
