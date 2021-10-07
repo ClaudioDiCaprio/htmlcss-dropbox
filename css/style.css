@@ -1,0 +1,164 @@
+/* commons  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+}
+
+.container {
+    width: 100%;
+}
+
+.container_ {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container_retro {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+/* header */
+header {
+    height: 10vhvh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 1;
+    background-color: rgb(255, 255, 255);
+    /* position: fixed;
+    z-index: 1; */
+}
+
+.tainer {
+    width: 96%;
+    margin: 0 auto;
+    height: 80px;
+    position: relative;
+}
+
+#isi {
+    position: absolute;
+    left: 150px;
+    bottom: 35px;
+}
+
+#der {
+    position: absolute;
+    right: 150px;
+    bottom: 35px;
+}
+
+#isi ul li,
+#der ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 25px;
+}
+
+#isi ul li a,
+#der ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.start {
+    position: absolute;
+    right: 0;
+    text-decoration: none;
+    background-color: rgb(0, 47, 255);
+    padding: 5px 15px;
+    color: white;
+    bottom: 30px;
+}
+.logo{
+    position: absolute;
+    top: 22px;
+
+}
+
+/* header */
+
+
+
+/* jumbotron */
+
+#jumbotron {
+    height: 550px;
+    margin-top: 80px;
+    background-color: #b4d0e7
+}
+
+/* jumbotron */
+
+
+
+/* main */
+
+/* main */
+
+
+/* limbo */
+
+#faq {
+    width: 100%;
+}
+
+/* limbo */
+
+/* footer */
+
+footer {
+    height: 500px;
+    width: 100%;
+}
+/* footer */
+
+
+
+
+
+
+
+
+
+
+/* debug */
+
+/* .debug header {
+    background-color: rgb(255, 251, 0);
+} */
+
+/* .debug header .tainer {
+    background-color: violet;
+    height: 100%;
+} */
+
+/* .debug #jumbotron {
+    background-color: rgb(0, 0, 255); */
+}
+
+.debug .container_ {
+    background-color: red;
+    height:3000px;
+}
+
+/* .debug .container_retro {
+    background-color: red;
+    height:500px;
+}     */
+
+.debug .container_retro #faq {
+    background-color: yellowgreen;
+    height: 700px;
+}
+
+.debug footer {
+    background-color: teal;
+
+}
