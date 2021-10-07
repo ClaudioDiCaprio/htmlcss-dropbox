@@ -7,7 +7,7 @@
 }
 
 .container {
-    width: 100%;
+    width: 100%;    
 }
 
 .container_ {
@@ -24,6 +24,12 @@
     width: 80%;
     margin: 0px auto;
     position: relative;
+}
+
+.clearfix::after {
+    content: none;
+    clear: both;
+    display: table;
 }
 
 
@@ -95,7 +101,7 @@ header {
 /* jumbotron */
 
 #jumbotron {
-    height: 550px;
+    height: 580px;
     margin-top: 80px;
     background-color: #b4d0e7
 }
@@ -104,8 +110,45 @@ header {
     font-size: 65px;
     margin-top: 30px;
     position: absolute;
-    top: 30px;
-    
+    top: 30px;    
+}
+
+.square {
+    width: 350px;
+    font-size: 15px;
+    position: relative;
+    top:250px;
+}
+
+#aggratis {
+    background-color:rgb(0, 47, 255) ;
+    color: white;
+    padding: 10px 15px;
+    position: relative;
+    top: 270px ;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+#decline {
+    font-size: 14px;
+    position: relative;
+    top: 310px;
+    right: 218px;
+}
+   
+#arrow {
+    font-size: 30px;
+    position: relative;
+    top: 375px;
+    right: 410px;
+}
+
+.jumbo {
+    width: 50%;
+    position: relative;
+    left: 515px;
+    top: 130px;
 }
 
 /* jumbotron */
