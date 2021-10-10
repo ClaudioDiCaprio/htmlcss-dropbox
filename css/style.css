@@ -13,7 +13,7 @@
 .container_ {
     width: 80%;
     margin: 0 auto;
-    text-align:left;
+    
 }
 
 .container_retro {
@@ -28,18 +28,15 @@
     position: relative;
 }
 
-.silouhette {
-    width: 80;
-    margin: 0 auto;
-    text-align: center;
-}
-
 .clearfix::after {
-    content: none;
+    content:"";
     clear: both;
     display: table;
 }
 
+.left{
+    float: left;
+}
 
 
 /* header */
@@ -138,6 +135,27 @@ header {
     font-size: 16px;
 }
 
+#aggratis_30 {
+    background-color:rgb(0, 47, 255) ;
+    color: white;
+    padding: 10px 45px;
+    position: relative;
+    left:25px;
+    top: 30px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+#aggratis_ {
+    background-color:rgb(0, 47, 255) ;
+    color: white;
+    padding: 10px 65px;
+    position: relative;
+    bottom:130px;
+    left: 690px; 
+    text-decoration: none;
+    font-size: 14px;
+}
 #decline {
     font-size: 14px;
     position: relative;
@@ -154,9 +172,11 @@ header {
 
 .jumbo {
     width: 50%;
+    max-width: ;
     position: relative;
     left: 515px;
     top: 130px;
+    
 }
 
 /* jumbotron */
@@ -165,13 +185,182 @@ header {
 
 /* main */
 
+/* ur_plan */
+
 #ur_plan {
-    margin: 200px 0  60px auto;
+    margin: 200px 60px 0px;
     font-size: 20px;
     
-
-    /* width: 80%; */
 }
+
+.trova  {
+    font-size: 39px;
+}
+
+.wallys {
+    margin: 50px 0;
+    line-height: 20px;
+    font-size: 20px;
+}
+
+.wally {
+    display: inline-block;
+    border-radius: 50%;
+    border:6px solid rgb(25, 105, 255);
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    
+}
+
+.wally_b {
+    display: inline-block;
+    border-radius: 50%;
+    border:1px solid rgb(173, 173, 173);
+    width: 25px;
+    height: 25px;
+    margin-left: 15px;
+    vertical-align: middle;    
+}
+
+/* /ur_plan */
+
+/* box_section */
+
+.floater {
+    margin-top: 50px;
+    /* border: 1px solid green; */
+}    
+
+
+.box {
+    width:300px ;
+    border: 1px solid lightgrey;
+    height: 1000px;
+    margin-right: 50px;
+}
+
+.lonely {
+    text-align: center;
+    padding: 10px;
+    border-bottom:1px solid rgb(173, 173, 173) ;
+    font-size:18px ;
+}
+
+.professional{
+    font-size: 25px;
+}
+
+.capsule {
+    font-size: 14px;
+    
+}
+
+.professional,
+.money,
+.mese,
+.pencil {
+    margin: 30px 0 20px;
+    padding-left: 25px;
+}
+
+.money {
+    font-size: 18px;
+    position: relative;
+    bottom: 5px;
+}
+
+.mese {
+    color: rgb(110, 110, 110);
+    position: relative;
+    bottom: 20px;
+}
+.utente,
+.folder {
+    padding-left: 25px;
+    padding-top: 20px;
+}
+
+.choice {
+    padding-left:25px ;
+    position: relative;
+    top: 70px;
+}
+
+.choice a {
+    color: rgb(25, 105, 255);
+    font-weight: bold;
+}
+
+.horizontal_rule {
+    width: 50px;
+    border-bottom: 1px solid rgb(167, 167, 167);
+    position: relative;
+    top :100px;
+    margin-left: 25px;
+}
+
+.hot_spot {
+    padding-left: 25px;
+    position: relative;
+    top:140px;
+}
+
+.list {
+    position: relative;
+    top: 150px;
+}
+
+.list ul li {
+    list-style: none;
+
+    margin-top: 20px;
+    padding-left: 25px;
+    
+}
+.list ul li::before {
+    content:"\2713";
+    color:rgb(25, 105, 255);
+    font-weight: bolder;
+    font-size: 18px;
+}
+/* box_section */
+/* enterprise */
+.enterprise_box {
+    width: 1000px;
+    border: 1px solid lightgrey;
+    /* height: 200px; */
+    margin-top: 40PX;
+    
+}
+
+.team {
+    text-align: center;
+    padding: 10px;
+    border-bottom:1px solid rgb(173, 173, 173) ;
+    font-size:18px ;
+}
+
+.en {
+    margin-left: 25px;
+}
+
+#enter {
+    margin-top: 30px;
+}
+.en h6 {
+    margin-top: 15px;
+}
+
+.en p {
+    font-size: 14px;
+    margin: 30px 0;
+}
+
+
+/* /enterprise */
+
+
 /* main */
 
 
@@ -225,12 +414,17 @@ footer {
     height:500px;
 }     */
 
-.debug .container_retro #faq {
+/* .debug .container_retro #faq {
     background-color: yellowgreen;
-    height: 700px;
+    height: 700px; */
 }
+
+/* .debug .enterprise_box {
+    background-color: lime;
+} */
 
 .debug footer {
     background-color: teal;
 
 }
+
