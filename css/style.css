@@ -151,7 +151,7 @@ header {
     color: white;
     padding: 10px 65px;
     position: relative;
-    bottom:130px;
+    bottom:110px;
     left: 690px; 
     text-decoration: none;
     font-size: 14px;
@@ -394,14 +394,28 @@ header {
     font-size: 14px;   
 }
 
+
+
 .eggs {
     width: calc( 100% / 3 - 60px );
     height: 450px;
-    margin-top: 50px;
+    margin-top: 100px;
     margin-right:20px;
     float: left;
     border: 1px solid lightgray;
-    background-color: lime;   
+}
+
+.eggs>img {
+    width: 100%;
+    /* size: cover; */
+}
+
+.eggs p{
+    margin-top: 25px;
+    font-size: 16px;
+}
+.eggs p>.underliner {
+    text-decoration: underline;
 }
 
 
@@ -451,7 +465,7 @@ footer {
 
 /* .debug #jumbotron {
     background-color: rgb(0, 0, 255); */
-}
+
 
 .debug .container_ {
     background-color: rgb(255, 255, 255);
@@ -466,11 +480,14 @@ footer {
 /* .debug .container_retro #faq {
     background-color: yellowgreen;
     height: 700px; */
-}
 
 /* .debug .enterprise_box {
     background-color: lime;
 } */
+
+/* .debu .business #sixiers .eggs {
+    background-color: lime;
+}  */
 
 .debug footer {
     background-color: teal;
