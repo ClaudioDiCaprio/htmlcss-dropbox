@@ -175,8 +175,7 @@ header {
     max-width: ;
     position: relative;
     left: 515px;
-    top: 130px;
-    
+    top: 130px;    
 }
 
 /* jumbotron */
@@ -193,7 +192,7 @@ header {
     
 }
 
-.trova  {
+.top  {
     font-size: 39px;
 }
 
@@ -330,6 +329,7 @@ header {
     color:rgb(25, 105, 255);
     font-weight: bolder;
     font-size: 18px;
+    removed beacuse keep give problem with the space under check
 } */
 /* box_section */
 /* enterprise */
@@ -391,12 +391,19 @@ header {
     border: 1px solid black;
     text-decoration: none;
     color: black;
-    font-size: 16px;   
+    font-size: 14px;   
 }
-/* .partnership h3 {
-    margin-left: 50px;
 
-} */
+.eggs {
+    width: calc( 100% / 3 - 60px );
+    height: 450px;
+    margin-top: 50px;
+    margin-right:20px;
+    float: left;
+    border: 1px solid lightgray;
+    background-color: lime;   
+}
+
 
 
 
