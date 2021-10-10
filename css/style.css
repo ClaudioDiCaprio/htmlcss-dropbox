@@ -318,12 +318,19 @@ header {
     padding-left: 25px;
     
 }
-.list ul li::before {
-    content:"\2713";
+
+#check {
     color:rgb(25, 105, 255);
     font-weight: bolder;
     font-size: 18px;
 }
+
+/* .list ul li::before {
+    content:"\2713";
+    color:rgb(25, 105, 255);
+    font-weight: bolder;
+    font-size: 18px;
+} */
 /* box_section */
 /* enterprise */
 .enterprise_box {
@@ -353,12 +360,47 @@ header {
 }
 
 .en p {
-    font-size: 14px;
-    margin: 30px 0;
+    font-size: 13px;
+    margin: 30px 0 15px;    
+}
+/* /enterprise */
+
+/* partner */
+
+.partner {
+    margin: 100px 0;
 }
 
+.partner img {
+    width: 50%;
+}
 
-/* /enterprise */
+.partnership {
+    width: 500px;
+    padding: 50px;
+}
+.partnership>p {
+    width: 360px;
+    font-size: 14px;
+    margin: 30px 0;
+    line-height: 25px;
+}
+
+#find_part {
+    padding: 10px 20px;
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;   
+}
+/* .partnership h3 {
+    margin-left: 50px;
+
+} */
+
+
+
+/* partner */
 
 
 /* main */
