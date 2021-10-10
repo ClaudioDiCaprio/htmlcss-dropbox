@@ -451,21 +451,17 @@ header {
 
 .topps {
     width: 30%;
-    background-color: gold;
-    height: 500px;
-}
+   }
 
 .morten {
     width: 40%;
-    background-color: rgb(226, 226, 226);
-    height: 500px;
+    padding: 40px;
+    background-color: rgb(235, 235, 235);
 }
 
 .planet {
     width: 30%;
-    background-color: gold;
-    height: 500px;
-}
+    }
 
 .bring {
     font-size:39px ;
@@ -478,12 +474,37 @@ header {
 
 .down_town a {
     background-color: rgb(226, 226, 226);
-    padding: 10px 45px;
+    padding: 10px 55px;
     text-decoration: none;
     color: black;
     position: relative;
     left: 980px;
     top: 20px;
+}
+
+.morten img {
+    width: 25%;
+}
+
+.h_rule {
+    width: 50px;
+    border-bottom: 1px solid rgb(204, 204, 204);
+    position: relative;
+    right: 25px;
+    top: 30px;
+    margin-left: 25px;
+}
+.members {
+    position: relative;
+    top: 90px;
+    font-size: 17px;
+}
+
+#tom {
+    font-size: 17px;
+    position: relative;
+    top: 145px;
+
 }
 /* design_it */
 
@@ -557,4 +578,18 @@ footer {
 .debug .design {
     height: 800px;
     background-color: rgb(134, 181, 235);
+}
+
+.debug .topps {
+    background-color: gold;
+    height: 500px;
+}
+
+.debug .morten {
+        height: 500px;
+}
+
+.debug .planet {
+    background-color: gold;
+    height: 500px;
 }
