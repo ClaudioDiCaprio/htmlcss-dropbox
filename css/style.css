@@ -532,6 +532,26 @@ header {
 .gold {
     background-color: gold;
 }
+
+.bicycle_log {
+    top: 90px;
+    left: 45px;
+}
+
+.hearest_log {
+    top: 120px;
+    left: 45px;
+}
+
+.lonely_log {
+    top: 90px;
+    left: 45px;
+}
+
+.clear_log {
+    top: 80px;
+    left: 45px;
+}
 /* /right_rubik */
 
 /* left_rubik */
@@ -584,7 +604,6 @@ header {
     top: 90px;
     left: 45px;
 }
-
 
 /* left_rubik */
 
