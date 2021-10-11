@@ -452,7 +452,7 @@ header {
     height: 800px;
     position: relative;
     top: 230px;
-    background-color: rgb(134, 181, 235);
+    background-color: #b4d0e7;
 }
 
 .topps {
@@ -617,6 +617,13 @@ header {
 
 
 /* faq */
+.ciccione {
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    top: 350px;
+}
+
 
 .qaf {
     font-size: 35px;
@@ -649,6 +656,58 @@ header {
 footer {
     height: 500px;
     width: 100%;
+    position: relative;
+    top: 450px;
+    background-color: #000000;
+    padding: 100px;
+}    
+
+.the_footer {
+    width: 98%;
+    /* height: 80%;
+    background-color:lime ; */
+    
+}
+
+.dropbox {
+    width: calc( 100% / 5 - 30px );
+    /* height: 100%;
+    background-color: coral; */
+    margin-right:30px;
+
+}
+
+.h_ruled {
+    width: 100px;
+    border-bottom: 1px solid rgb(204, 204, 204);
+    position: relative;
+    top: 320px;
+    color: white;
+
+    
+}
+.languages {
+    color: rgb(201, 201, 201);
+    position: relative;
+    top: 230px;
+    right: 1045px;
+    font-size: 14px;
+}
+
+.the_footer .dropbox ul li {
+    list-style: none;
+    line-height: 30px;
+}
+
+.the_footer .dropbox ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.the_footer .dropbox ul li:first-child {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
 }
 /* footer */
 
@@ -708,12 +767,16 @@ footer {
     background-color: #b4d0e7);
 } */
 
-.debug .ciccione {
+/* .debug .ciccione {
     width: 90%;
     margin: 0 auto;
-    /* background-color: crimson; */
+    background-color: crimson;
     height: 500px;
     position: relative;
     top: 350px;
-}
+} */
+/* 
+.debug footer {
+    background-color: lime;
+} */
 
