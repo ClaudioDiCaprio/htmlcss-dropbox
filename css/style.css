@@ -508,6 +508,91 @@ header {
 }
 /* design_it */
 
+.planet {
+    position: relative;
+}
+.xob {
+    height: 50%;
+    width: 50%;
+}
+
+/* right_rubik */
+.red {
+    background-color:rgb(211, 0, 0) ;
+}
+
+.blued {
+    background-color: rgb(0, 10, 146);
+}
+
+.tur {
+    background-color: #b4d0e7;
+}
+
+.gold {
+    background-color: gold;
+}
+/* /right_rubik */
+
+/* left_rubik */
+.greeny {
+    background-color: #d0e9cd;
+    text-align: center;
+}
+
+.armor { 
+    background-color: #a2d39b;
+    width: 210px;
+    height: 230px;
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+
+.bor {
+    background-color: #61082b;
+}
+
+.flo {
+    background-color: #0093ce;
+}
+
+.reddish {
+    background-color: #ff1c1c;
+}
+
+.rever {
+    filter: invert(100%);
+    width: 60%;
+    position: relative;
+}
+
+.design_log {
+    top: 90px;   
+}
+.asu_log {
+    top: 75px;
+    left: 50px;
+}
+
+.flo_log {
+    top: 105px;
+    left: 40px;
+}
+
+.topps_log {
+    top: 90px;
+    left: 45px;
+}
+
+
+/* left_rubik */
+
+
+
+/* design_it */
+
+
 /* limbo */
 
 #faq {
@@ -577,7 +662,7 @@ footer {
 
 .debug .design {
     height: 800px;
-    background-color: rgb(134, 181, 235);
+    background-color: #b4d0e7);
 }
 
 .debug .topps {
