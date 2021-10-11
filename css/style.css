@@ -711,6 +711,23 @@ footer {
 }
 /* footer */
 
+/* bonus */
+footer .the_footer ul li a:hover {
+    text-decoration: underline;
+}
+.custom {
+    background-color:black;
+    color: lightgray;
+    border: black;
+
+}
+
+/* #lang_li {
+    text-decoration: none;
+} */
+
+/* /bonus */
+
 
 
 
