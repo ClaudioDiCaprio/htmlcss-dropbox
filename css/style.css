@@ -38,65 +38,73 @@
     float: left;
 }
 
+.btn {
+    padding: 5px 15px;
+    text-decoration: none;
+}
+
+.lu {
+    background-color:rgb(0, 47, 255);
+    color: white;
+    
+}
+
 
 /* header */
 header {
-    height: 10vhvh;
+    height:80px;
     width: 100%;
+    line-height: 78px;
+    position: fixed;
     top: 0;
     left: 0;
-    position: fixed;
     z-index: 1;
-    background-color: rgb(255, 255, 255);
-    /* position: fixed;
-    z-index: 1; */
+    background-color: white;
+    border-bottom: 1px solid grey;
 }
 
-.tainer {
-    width: 96%;
-    margin: 0 auto;
-    height: 80px;
-    position: relative;
-}
-
-#isi {
-    position: absolute;
-    left: 150px;
-    bottom: 35px;
-}
-
-#der {
-    position: absolute;
-    right: 150px;
-    bottom: 35px;
-}
-
-#isi ul li,
-#der ul li {
-    list-style: none;
-    display: inline-block;
-    margin-left: 25px;
-}
-
-#isi ul li a,
-#der ul li a {
+a {
     text-decoration: none;
     color: black;
 }
 
-.start {
-    position: absolute;
-    right: 0;
-    text-decoration: none;
-    background-color: rgb(0, 47, 255);
-    padding: 5px 15px;
-    color: white;
-    bottom: 30px;
-}
-.logo{
-    position: absolute;
-    top: 22px;
+/* a:hover {
+    text-decoration: underline;
+} */
 
+nav#main_nav ul {
+    float: left;
+}
+
+nav#main_nav ul:last-child {
+    float: right;
+}
+
+nav#main_nav li {
+    display: inline-block;
+    list-style: none;
+}
+
+nav#main_nav li:hover {
+    border-bottom: 2px solid black;
+}
+
+#logo img {
+    vertical-align: text-bottom;
+}
+
+nav#main_nav a {
+    margin: 0 18px;
+    display: inline-block;
+}
+
+nav#main_nav .last a.btn {
+    display: inline;
+}
+
+nav#main_nav li#logo:hover,
+nav#main_nav li.last:hover {
+    border-bottom: none;
 }
 
 /* header */
@@ -481,7 +489,7 @@ header {
 .down_town a {
     background-color: rgb(226, 226, 226);
     padding: 10px 55px;
-    text-decoration: none;
+    /* text-decoration: none; */
     color: black;
     position: relative;
     left: 980px;
@@ -700,7 +708,7 @@ footer {
 }
 
 .the_footer .dropbox ul li a {
-    text-decoration: none;
+    /* text-decoration: none; */
     color: white;
 }
 
