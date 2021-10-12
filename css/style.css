@@ -1,5 +1,5 @@
 /* commons  */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -18,8 +18,7 @@
 
 .container_retro {
     width: 80%;
-    margin: 0 auto;
-    
+    margin: 0 auto;    
 }
 
 .nort {
@@ -34,7 +33,7 @@
     display: table;
 }
 
-.left{
+.left {
     float: left;
 }
 
@@ -45,8 +44,7 @@
 
 .lu {
     background-color:rgb(0, 47, 255);
-    color: white;
-    
+    color: white;    
 }
 
 
@@ -164,6 +162,7 @@ nav#main_nav li.last:hover {
     text-decoration: none;
     font-size: 14px;
 }
+
 #decline {
     font-size: 14px;
     position: relative;
@@ -259,8 +258,7 @@ nav#main_nav li.last:hover {
 }
 
 .capsule {
-    font-size: 14px;
-    
+    font-size: 14px;    
 }
 
 .professional,
@@ -282,6 +280,7 @@ nav#main_nav li.last:hover {
     position: relative;
     bottom: 20px;
 }
+
 .utente,
 .folder {
     padding-left: 25px;
@@ -418,10 +417,11 @@ nav#main_nav li.last:hover {
     /* size: cover; */
 }
 
-.eggs p{
+.eggs p {
     margin-top: 25px;
     font-size: 16px;
 }
+
 .eggs p>.underliner {
     text-decoration: underline;
 }
@@ -429,8 +429,7 @@ nav#main_nav li.last:hover {
 /* five_h_thousand */
 
 .five {
-    width: 540px;
-    
+    width: 540px;    
 }
 
 ._h_{
@@ -465,7 +464,7 @@ nav#main_nav li.last:hover {
 
 .topps {
     width: 30%;
-   }
+}
 
 .morten {
     width: 40%;
@@ -475,7 +474,7 @@ nav#main_nav li.last:hover {
 
 .planet {
     width: 30%;
-    }
+}
 
 .bring {
     font-size:39px ;
@@ -508,6 +507,7 @@ nav#main_nav li.last:hover {
     top: 30px;
     margin-left: 25px;
 }
+
 .members {
     position: relative;
     top: 90px;
@@ -518,13 +518,13 @@ nav#main_nav li.last:hover {
     font-size: 17px;
     position: relative;
     top: 145px;
-
 }
 /* /design_it */
 
 .planet {
     position: relative;
 }
+
 .xob {
     height: 50%;
     width: 50%;
@@ -604,6 +604,7 @@ nav#main_nav li.last:hover {
 .design_log {
     top: 90px;   
 }
+
 .asu_log {
     top: 75px;
     left: 50px;
@@ -651,23 +652,32 @@ nav#main_nav li.last:hover {
     margin-bottom: 25px;
 }
 
-
-
 .fa-chevron-down {
     position: relative;
     left: 480px;
 }
 
 .fa-chevron-down:hover {
-    transform: rotate(180deg);
-    
+    transform: rotate(180deg);    
 }
 
-/* .fa-chevron-up {
-    position: relative;
-    left: 461px;
+.vanish {
+    width:70% ;
+    color:  grey;
+    margin-top: 20px;
     display: none;
-} */
+}
+
+.oxi {
+    color: grey;
+    text-decoration: underline;
+}
+
+.difference:hover .vanish,
+.difference_:hover .vanish {
+    display:block;
+}
+
 
 
 /* faq */
@@ -686,8 +696,7 @@ footer {
 .the_footer {
     width: 98%;
     /* height: 80%;
-    background-color:lime ; */
-    
+    background-color:lime ; */    
 }
 
 .dropbox {
@@ -703,10 +712,10 @@ footer {
     border-bottom: 1px solid rgb(204, 204, 204);
     position: relative;
     top: 320px;
-    color: white;
-
+    color: white;    
     
 }
+
 .languages {
     color: rgb(201, 201, 201);
     position: relative;
@@ -736,6 +745,7 @@ footer {
 footer .the_footer ul li a:hover {
     text-decoration: underline;
 }
+
 .custom {
     background-color:black;
     color: lightgray;
@@ -748,14 +758,6 @@ footer .the_footer ul li a:hover {
 } */
 
 /* /bonus */
-
-
-
-
-
-
-
-
 
 
 /* debug */
