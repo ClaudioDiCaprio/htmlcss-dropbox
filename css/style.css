@@ -651,11 +651,24 @@ nav#main_nav li.last:hover {
     margin-bottom: 25px;
 }
 
+
+
 .fa-chevron-down {
     position: relative;
     left: 480px;
-
 }
+
+.fa-chevron-down:hover {
+    transform: rotate(180deg);
+    
+}
+
+/* .fa-chevron-up {
+    position: relative;
+    left: 461px;
+    display: none;
+} */
+
 
 /* faq */
 
